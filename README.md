@@ -12,7 +12,7 @@ If your USB folders appear as shortcuts or your files have become hidden, USBSho
 
 ## Download USBShortcutGuard
 
-Visit [official downloads and releases](https://github.com/johndimopoulos/USBShortcutGuard/releases). The version 3.0 installer will be available there when the release is published.
+[Download USBShortcutGuard 3.0 for Windows](https://github.com/johndimopoulos/USBShortcutGuard/releases/download/v3.0/USBShortcutGuard-Setup.exe) · [Release notes and SHA-256 checksum](https://github.com/johndimopoulos/USBShortcutGuard/releases/tag/v3.0)
 
 1. Download **USBShortcutGuard-Setup.exe** and **SHA256SUMS.txt** from the release.
 2. Compare the installer's SHA-256 hash with the checksum provided.

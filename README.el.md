@@ -12,7 +12,7 @@
 
 ## Λήψη του USBShortcutGuard
 
-Επισκεφθείτε τις [επίσημες λήψεις και εκδόσεις](https://github.com/johndimopoulos/USBShortcutGuard/releases). Το πρόγραμμα εγκατάστασης της έκδοσης 3.0 θα είναι διαθέσιμο εκεί όταν δημοσιευτεί η έκδοση.
+[Λήψη USBShortcutGuard 3.0 για Windows](https://github.com/johndimopoulos/USBShortcutGuard/releases/download/v3.0/USBShortcutGuard-Setup.exe) · [Σημειώσεις έκδοσης και άθροισμα ελέγχου SHA-256](https://github.com/johndimopoulos/USBShortcutGuard/releases/tag/v3.0)
 
 1. Κατεβάστε τα **USBShortcutGuard-Setup.exe** και **SHA256SUMS.txt** από τη σελίδα της έκδοσης.
 2. Συγκρίνετε το SHA-256 του προγράμματος εγκατάστασης με το παρεχόμενο άθροισμα ελέγχου.
