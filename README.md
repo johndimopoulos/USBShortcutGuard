@@ -1,31 +1,61 @@
 <p align="center">
-  <img src="usbshortcutguard-logo.png" alt="USBShortcutGuard logo" width="180">
+  <img src="usbshortcutguard-logo.png" alt="USBShortcutGuard USB security logo" width="180">
 </p>
 
-# USBShortcutGuard
+# USBShortcutGuard — USB Shortcut Virus Removal for Windows
 
-USBShortcutGuard 3.0 is a lightweight Windows x64 utility for USB shortcut-virus cleanup.
+[Ελληνικά — Οδηγός στα Ελληνικά](README.el.md)
 
-It checks USB storage devices connected at startup and inserted later, quarantines files matching strong shortcut-virus signatures, and restores hidden/system attributes on matching original files and folders.
+USBShortcutGuard 3.0 helps clean USB flash drives affected by shortcut viruses on **Windows 10 and Windows 11 (64-bit)**. It quarantines files matching strong shortcut-virus signatures and restores the visibility of affected original files and folders.
 
-## Download and installation
+If your USB folders appear as shortcuts or your files have become hidden, USBShortcutGuard checks for the patterns associated with this type of infection.
 
-Download **USBShortcutGuard-Setup.exe** from **Releases** and verify it against **SHA256SUMS.txt**. Installation requires administrator approval.
+## Download USBShortcutGuard
 
-Greek Windows display language selects Greek; other display languages select English. Instructions can be reopened from the application's Start menu folder.
+Visit [official downloads and releases](https://github.com/johndimopoulos/USBShortcutGuard/releases). The version 3.0 installer will be available there when the release is published.
 
-Reinstall/update preserves logs and quarantine. Complete reinstall and uninstall delete application logs and quarantined files.
+1. Download **USBShortcutGuard-Setup.exe** and **SHA256SUMS.txt** from the release.
+2. Compare the installer's SHA-256 hash with the checksum provided.
+3. Run the installer and approve the Windows administrator prompt.
+4. Allow the USB check to finish before opening suspicious shortcuts.
 
-USBShortcutGuard does not replace antivirus software or remove an infection from Windows itself. Use Windows Defender or another antivirus to inspect an infected computer.
+## Features
 
-## Feedback
+- Checks USB storage connected at startup and inserted later.
+- Examines suspicious shortcuts, autorun commands and related scripts without executing them.
+- Quarantines confirmed shortcut-virus files and restores hidden/system attributes on affected originals.
+- Shows scan results through Windows notifications and progress for checks lasting longer than five seconds.
+- Provides an administrator-only quarantine viewer with copying and permanent deletion.
+- Supports **English and Greek**: Greek Windows display language selects Greek; other display languages select English.
 
-Use **Issues** for bugs and **Discussions** for questions and suggestions. For display problems, include Windows version, resolution, scaling percentage and a screenshot with personal information removed.
+## Installation and existing installations
 
-Do not upload suspected malware, quarantined files, passwords or personal data.
+Windows 10 or Windows 11, a 64-bit system and administrator approval are required. Instructions can be reopened from the application's Start menu folder.
 
-## Source
+**Reinstall/update** preserves application logs and quarantined files. **Complete reinstall** and **uninstall** delete them.
 
-This public repository contains documentation and installer releases. Application source is maintained separately in a private repository.
+## Frequently asked questions
+
+### Can it restore hidden USB files and folders?
+
+It restores visibility for existing originals associated with a confirmed shortcut-virus infection. It does not recover deleted file contents.
+
+### Is this a complete antivirus?
+
+No. USBShortcutGuard targets USB shortcut-virus patterns. It does not replace antivirus software or remove an infection from Windows itself. Use Windows Defender or another antivirus to inspect an infected computer.
+
+### Will every script be quarantined?
+
+No. A file extension alone is not enough to trigger quarantine. Ordinary scripts should remain unchanged; detection depends on suspicious content and context.
+
+## Support and feedback
+
+[Report a bug](https://github.com/johndimopoulos/USBShortcutGuard/issues/new/choose) or [ask a question and suggest improvements](https://github.com/johndimopoulos/USBShortcutGuard/discussions).
+
+For display problems, include the Windows version, screen resolution, scaling percentage and a screenshot with personal information removed. Do not upload suspected malware, quarantined files, passwords or personal data.
+
+## Project and source code
+
+This is the official public repository for USBShortcutGuard documentation, installer releases and feedback. Application source is maintained separately in a private repository.
 
 John Dimopoulos — Software Engineer / IT Professor.
