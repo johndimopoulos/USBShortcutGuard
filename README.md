@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="usbshortcutguard-logo.png" alt="USBShortcutGuard logo" width="180">
+</p>
+
 # USBShortcutGuard
 
 USBShortcutGuard 3.0 is a lightweight Windows x64 utility for USB shortcut-virus cleanup.
