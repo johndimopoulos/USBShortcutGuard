@@ -2,6 +2,15 @@
   <img src="usbshortcutguard-logo.png" alt="USBShortcutGuard — προστασία μονάδων USB" width="180">
 </p>
 
+<p align="center">
+  <a href="https://github.com/johndimopoulos/USBShortcutGuard/releases/download/v3.0/USBShortcutGuard-Setup.exe">
+    <img src="https://img.shields.io/badge/%CE%9B%CE%AE%CF%88%CE%B7%20%CE%B3%CE%B9%CE%B1%20Windows-0078D4?style=for-the-badge" alt="Λήψη για Windows" height="40">
+  </a>
+  <br>
+  <sub>Windows 10 / 11 · 64-bit · Έκδοση 3.0</sub>
+</p>
+
+
 # USBShortcutGuard — Καθαρισμός USB από ιούς συντομεύσεων για Windows
 
 [English guide](README.md)
