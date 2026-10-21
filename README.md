@@ -2,6 +2,15 @@
   <img src="usbshortcutguard-logo.png" alt="USBShortcutGuard USB security logo" width="180">
 </p>
 
+<p align="center">
+  <a href="https://github.com/johndimopoulos/USBShortcutGuard/releases/download/v3.0/USBShortcutGuard-Setup.exe">
+    <img src="https://img.shields.io/badge/Download%20for%20Windows-0078D4?style=for-the-badge" alt="Download for Windows" height="40">
+  </a>
+  <br>
+  <sub>Windows 10 / 11 · 64-bit · Version 3.0</sub>
+</p>
+
+
 # USBShortcutGuard — USB Shortcut Virus Removal for Windows
 
 [Ελληνικά — Οδηγός στα Ελληνικά](README.el.md)
